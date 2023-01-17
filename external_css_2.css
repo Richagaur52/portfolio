@@ -1,0 +1,163 @@
+body{
+    margin: 0px;
+    text-align: center;
+    font-family:  'Rowdies', cursive;
+    color:#668FBF;
+}
+h1{
+    margin: 0;
+    font-family: 'Signika Negative', sans-serif;
+    /* font-size: 90px;              px-absolute not dynamic so instead use % or em  ## 1em=16px=100% => 90px=562.5% or5.625*/
+    font-size: 5.625rem;        /*rem is better than em so,try to use rem*/
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #11999E;
+}
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #11999E;
+}
+a{
+    color: #11999E;
+    font-family:  'Rowdies', cursive;
+    margin: 10px 20px;
+    text-decoration: none;
+
+}
+a:hover{
+    color: #EAF6F6;
+}
+
+hr{
+    border: dotted gray 6px;
+    border-bottom: none;
+    width: 15%;
+}
+.copyright{
+    color: #EAF6F6;
+    font-size: 10px;
+    margin-top: 20px;
+}
+.top-container {
+    background-color:lavenderblush;
+}
+.top-container{
+    position: relative;
+    padding-top: 100px;
+}
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 50px 0;
+}
+.student{
+    text-decoration: underline;
+}
+.name{
+    /* text-align: center; */
+    margin: 50px auto 0 auto;
+    /* width: 10%;                    if we mention width then text-align of body ll not work so imnside work class we write margin */
+    color: #66BFBF;
+    font-family: 'Explora', cursive;
+
+}
+.work{
+    font-size: 2.5rem;
+    margin: 0 auto auto auto;
+    color: #66BFBF;
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+
+}
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+.skill-row{
+    width: 40%;
+    margin:100px auto 100px auto;
+    text-align: left;
+}
+.skill{
+    width: 30%;
+    border-radius: 100%;
+    float: left;
+    margin-right: 10%;
+}
+.profile{
+    width: 40%;
+    height: fit-content;
+    margin:100px auto 100px auto;
+
+}
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 5px 13px 4px 11px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #1fa9ff;
+    background-image: -webkit-linear-gradient(top, #1fa9ff, #3498db);
+    background-image: -moz-linear-gradient(top, #1fa9ff, #3498db);
+    background-image: -ms-linear-gradient(top, #1fa9ff, #3498db);
+    background-image: -o-linear-gradient(top, #1fa9ff, #3498db);
+    background-image: linear-gradient(to bottom, #1fa9ff, #3498db);
+    text-decoration: none;
+  }
+  .contact-me{
+    margin:26px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************************   3_box  ********************************/
+/*.div_1st{
+    background-color: lavenderblush;
+    width: 200px;
+    height: 200px;
+    border: solid 10px;
+    padding: 20px;
+
+}
+.div_2nd{
+    background-color: burlywood;
+    width: 200px;
+    height: 200px;
+    border: solid 20px;
+    margin-left: 260px;
+
+}
+.div_3rd{
+    background-color: cadetblue;
+    width: 200px;
+    height: 200px;
+    border:solid 10px;
+    margin-left: 500px;
+}*/
